@@ -62,8 +62,8 @@
       <h1>Hi I'm Harsh Raj</h1>
 
       <div class="content-text">
-        <h2>Crafting Web-Based</h2>
-        <h2>Solutions, Brands, and User Experiences.</h2>
+        <h2>I'm a <span id="element"></span></h2>
+        <h2>I Craft Website and User Experiences.</h2>
 
         <p>
           A Frontend Developer and Visual Designer with experience in web
@@ -111,10 +111,10 @@
           in software engineering that I'd be delighted to share with you.
         </p>
 
-       
+
       </div>
     </div>
-</section>
+  </section>
 
   <!--================ EDUCATION ==============-->
   <section id="Education" class="education-container container">
@@ -293,7 +293,22 @@
       <p>Copyright@2023 All rights reserved</p>
     </div>
   </footer>
+
+
   <script src="js/script.js"></script>
+
+  <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
+  <script>
+    var typed = new Typed('#element', {
+      strings: ['Front-end Developer', 'Back-end Developer', 'Full-Stack Developer'],
+
+      loop: true,
+      backSpeed: 50,
+      typeSpeed: 55,
+      showCursor: false,
+    });
+  </script>
 </body>
 
 </html>
