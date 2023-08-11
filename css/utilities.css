@@ -189,7 +189,8 @@ h2::selection {
 }
 
 .about-main .col1 img {
-  width: 100%; /* Make the image responsive within its container */
+  width: 100%;
+  height: 100%; /* Make the image responsive within its container */
   border-radius: 20px;
 }
 
